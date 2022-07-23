@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2? family= Passion+One & family= Sriracha & display=swap');
+
+body {
+    font-family: 'Oswald';
+    margin: 0; padding: 0;
+    background-color: #15161b;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.logo h2{
+    color: #fff;
+    font-size: 30px;
+}
+
+.logo span {
+    color: #117195;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.area-title h3 {
+    color: #fff;
+    font-weight: normal;
+}
+
+.area-title h1 {
+    font-size: 60px;
+    color: #fff;
+    line-height: 50px;
+    margin-top: -18px;
+}
+
+.area-title a {
+    display: inline-block;
+    background-color: #FAFBFF;
+    padding:  15px 60px;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.area-title a:hover {
+    background-color: #354259;
+    color: #fff;
+    transition: .5s;
+}
+
+.image1 img {
+    width: 460px;
+    height: auto;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-left: 55px;;
+}
+/* area dos cards*/
+.section-cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.section-cards h2 {
+    color: #fff;
+    font-size: 22px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+.card {
+    background-color: #117195;
+    width: 200px;
+    height: 180px;
+    margin-left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+
+.card:hover {
+    background-color: #11729586;
+    color: #fff;
+    transition: .5s all;
+}
+
+.card img {
+    width: 65px;
+}
+
+/* section tres */
+.section-3 {
+    background-color: #117195;
+    height: 342px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    align-items: center;
+}
+
+.area-title-2 h1 {
+    color: #fff;
+    font-size: 35px;
+}
+
+.area-title-2 h3 {
+    color: #fff;
+    font-size: 20px;
+    font-weight: normal;
+    margin-top: -26px;
+   
+}
+
+.area-title-2 a {
+    display: inline-block;
+    background-color: #fff;
+    padding: 20px 85px;
+    border-radius: 5px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.area-title-2 a:hover{
+    background-color: #C2DED1;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.image2 img {
+    width: 280px;
+    height: auto;
+    margin-bottom: 5px;
+    margin-left: 100px;
+}
+/* formulario */
+.area-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
+    flex-direction: column;
+}
+
+.area-form h2 {
+    color: #fff;
+    text-align: center;
+}
+
+.formulario form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 300px;
+}
+
+.formulario input {
+    margin-top: 20px;
+    padding-left: 10px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-family: 'Oswald';
+}
+
+input::placeholder {
+    color: #000000;
+    text-transform: uppercase;
+    
+}
+
+input[type="submit"]{
+    background-color: #117195;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff;
+    height: 55px;
+    cursor: pointer;
+}
+/* footer */
+.social {
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+footer {
+    margin-top:100px ;
+}
+
+.social h3{
+    color: #fff;
+   font-weight: normal;
+}
+
+.social img {
+    width: 30px;
+    margin-left: 15px;
+}
+
