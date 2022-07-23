@@ -152,7 +152,6 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
     flex-direction: column;
 }
 
@@ -165,7 +164,7 @@ header {
     display: flex;
     flex-direction: column;
     width: 400px;
-    height: 300px;
+    height: 225px;
 }
 
 .formulario input {
@@ -200,7 +199,12 @@ input[type="submit"]{
 }
 
 footer {
-    margin-top:100px ;
+    margin-top:100px;
+}
+
+footer .social {
+    text-align: center;
+    margin-top: 40px;
 }
 
 .social h3{
@@ -212,4 +216,7 @@ footer {
     width: 30px;
     margin-left: 15px;
 }
+
+
+
 
